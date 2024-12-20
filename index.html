@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!-- Meta tags Obrigatórias -->
+	<title>Site</title>
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+<body>
+    
+
+<!--inicio /topo-->
+<nav>
+    <div class="nav-wrapper">
+        <a href="imagens/logo.png" class="brand-logo">Tecnologias</a>
+        <a href="" data-activates="menu-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Fale conosco</a></li>
+        </ul>
+        <ul class="side-nav" id="menu-mobile">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Fale conosco</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--fim /topo-->
+
+<!-- inicio do conteudo -->
+
+<div>
+    <h5><strong>Novidades no mundo da tecnologia</strong></h5>
+    <p style="font-size:20px"></p>
+
+</div>
+
+<div class="box-cookies hide container">
+    <div class="row">
+        <div class="col">
+            <p class="msg-cookies">
+                O texto contendo as informações pertinentes ao usuário...
+            </p>
+        </div>
+        <div class="col-auto">
+            <button class="btn-cookies button-primary">Eu aceito</button>
+        </div>
+    </div>
+</div>
+
+
+    
+<!-- fim /conteudo-->
+
+<!-- inicio rodape-->
+<footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <span><b>Tecnologias</b></span>
+                <p>SIA Trecho 5 lote 000 bloco z sala 900 - Guará, Brasília - DF, 70000-010</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+                <!-- elemento -->
+                <span><b>Contatos</b></span>
+                <p>contato@na.na</p>
+                <p>+55 63 99200-0000</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+                <!-- elemento -->
+                <span><b>Links</b></span>
+                <p><a href="contato.html">Serviços</a></p>
+                <p><a href="quem_somos.html">Empresa</a></p>
+                <p><a href="#sobre">Sobre</a></p>
+            </div>
+        </div>
+
+        <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+                <!-- elemento -->
+                <span><b>Outros</b></span>
+                <p>Políticas de Privacidade</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</footer>
+
+    <!--fim /rodape-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $(".button-collapse").sideNav();
+    });
+    
+window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#f5f5f5",
+                "text": "#000000"
+            },
+            "button": {
+                "background": "#0001ff",
+                "text": "#ffffff"
+            }
+        },
+        "content": {
+        "message": "Este site usa cookies para garantir que você obtenha a melhor experiência de navegação. Desativar os cookies do site pode prejudicar a funcionalidade de alguns recursos.",
+        "dismiss": "Concordar e fechar",
+        "link": "Ler mais",
+        "href": "https://seu-dominio-de-site.com.br/pagina-da-politica"
+        }
+    });
+    </script>
+
+    
+    
+
+
+
+</body>
+
+
+
+
+</html>
